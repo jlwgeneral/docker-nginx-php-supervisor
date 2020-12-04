@@ -13,11 +13,11 @@ can edit http.conf(server part) or supervisor.ini is map /www in container, conn
 
 Some Command location
 =====================
-/usr/sbin/nginx
-/usr/local/sbin/php-fpm
-/usr/bin/supervisord -c /etc/supervisord.conf
-/usr/bin/supervisorctl reload
-/usr/bin/supervisorctl start all
+/usr/sbin/nginx <br/>
+/usr/local/sbin/php-fpm <br/>
+/usr/bin/supervisord -c /etc/supervisord.conf <br/>
+/usr/bin/supervisorctl reload <br/>
+/usr/bin/supervisorctl start all <br/>
 
 
 
