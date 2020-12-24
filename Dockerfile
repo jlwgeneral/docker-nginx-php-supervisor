@@ -20,6 +20,7 @@ RUN mkdir -p /etc/services.d/supervisor/ \
 	&& ln -s /www/supervisor.ini  /etc/supervisor.d/supervisor.ini
 
 COPY supervisor /etc/services.d/supervisor/run
+COPY supervisord.conf /etc/supervisord.conf
 COPY php-fpm.conf /usr/local/etc/php-fpm.conf
 ADD pool.d /usr/local/etc/pool.d/
 
